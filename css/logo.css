@@ -1,19 +1,13 @@
 /* Replace Jellyfin logos with ROVR logo */
 
-.adminDrawer .adminDrawerLogo img,
-.adminDrawer .adminDrawerLogo a img,
-#adminDrawerLogo img,
-.pageTitleWithLogo,
-.logoImage,
-img.adminDrawerLogo,
-.splashLogo,
-#splashLogo {
-    content: url('https://cdn.jsdelivr.net/gh/rabblrouser/rovr/assets/img/rovr_logo.png');
+.adminDrawerLogo img {
+    content: url(https://cdn.jsdelivr.net/gh/rabblrouser/rovr/assets/img/rovr_logo.png) !important;
 }
 
-/* Login page logo */
-.manualLoginForm .loginLogo img,
-#loginPage .loginLogo img,
-.loginLogo img {
-    content: url('https://cdn.jsdelivr.net/gh/rabblrouser/rovr/assets/img/rovr_logo.png');
+imgLogoIcon {
+    content: url(https://cdn.jsdelivr.net/gh/rabblrouser/rovr/assets/img/rovr_logo.png) !important;
+}
+
+.pageTitleWithLogo {
+    background-image: url(https://cdn.jsdelivr.net/gh/rabblrouser/rovr/assets/img/rovr_logo.png) !important;
 }
