@@ -1,20 +1,19 @@
-/* Replace Logo with streamberry logo, this should be the last line in CSS */
-:root {
-    --logo: url("https://cdn.jsdelivr.net/gh/rabblrouser/rovr/assets/img/rovr_logo.png");
+/* Replace Jellyfin logos with ROVR logo */
+
+.adminDrawer .adminDrawerLogo img,
+.adminDrawer .adminDrawerLogo a img,
+#adminDrawerLogo img,
+.pageTitleWithLogo,
+.logoImage,
+img.adminDrawerLogo,
+.splashLogo,
+#splashLogo {
+    content: url('https://cdn.jsdelivr.net/gh/rabblrouser/rovr/assets/img/rovr_logo.png');
 }
 
-.pageTitleWithDefaultLogo {
-    background-size: 100% !important;
-}
-
-.layout-mobile .pageTitleWithDefaultLogo {
-    width: 130px !important;
-}
-
-#loginPage .visualLoginForm:not(.hide) h1::before {
-  background-size: 50% !important;
-}
-
-#loginPage .manualLoginForm:not(.hide) h1.sectionTitle::before {
-  background-size: 100% !important;
+/* Login page logo */
+.manualLoginForm .loginLogo img,
+#loginPage .loginLogo img,
+.loginLogo img {
+    content: url('https://cdn.jsdelivr.net/gh/rabblrouser/rovr/assets/img/rovr_logo.png');
 }
