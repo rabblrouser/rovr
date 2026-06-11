@@ -256,7 +256,7 @@ select {
     font-size: 70%;
 }
 .cardScalable {
-    border: var(--darkerBorderColor) solid var(--borderWidthDouble) !important;
+    /*border: var(--darkerBorderColor) solid var(--borderWidthDouble) !important;*/
     border-radius: var(--largeRadius);
     box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.4);
     overflow: hidden !important;
