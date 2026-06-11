@@ -3245,8 +3245,3 @@ ul.MuiList-root.MuiMenu-list.MuiList-dense > div:first-child {
     background: var(--dimTextColor);
     color: #000;
 }
-
-.backdropImage {
-  filter: blur(20px);
-  transform: scale(1.05); /* prevent edge bleed */
-}
