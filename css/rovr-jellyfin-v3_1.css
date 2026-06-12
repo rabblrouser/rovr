@@ -44,7 +44,7 @@
     --headerBlurLayerVisibility: "";
     --headerBlurMask: linear-gradient(180deg, #fff 50%, 85%, transparent);
     --headerColor: rgba(30, 40, 54, 0.8);
-    --headerColorGradient: linear-gradient(180deg, rgba(30, 40, 54, 0.95) 30%, 55%, transparent 90%);
+    --headerColorGradient: linear-gradient(180deg, rgb(146, 141, 171) 30%, 55%, transparent 90%);
     --headerColorGradientAlt: linear-gradient(180deg, #262238, 70%, transparent);
     --highlightOutlineColor: #2563eb;
     --hoverGradientH: linear-gradient(
