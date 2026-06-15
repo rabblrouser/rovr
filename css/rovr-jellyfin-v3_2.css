@@ -70,7 +70,7 @@
     --largerRadius: 1.25em;
     --libraryLabelVisibility: none;
     --lighterBorderColor: hsla(0, 0%, 100%, 0.2);
-    --lighterGradientPoint: #444e77 /*1d2635*/
+    --lighterGradientPoint: #444e77; /*1d2635*/
     --lighterGradientPointAlpha: rgba(29, 38, 53, 0.85);
     --loginPageBgUrl: url();
     --loginPageText: "Sign in to continue";
