@@ -31,7 +31,7 @@
     --checkboxCheckedBgColor: #4f46e5;
     --clearLogoVisibility: block;
     --darkerBorderColor: #31373f;
-    --darkerGradientPoint: #1F1C2C; /*#111827;*/
+    --darkerGradientPoint: #1e1b27; /*#111827;*/
     --darkerGradientPointAlpha: rgba(31, 28, 44, 0.85);
     --defaultBorder: var(--borderWidth) solid var(--borderColor);
     --defaultLighterBorder: var(--borderWidth) solid var(--lighterBorderColor);
@@ -44,7 +44,7 @@
     --headerBlurLayerVisibility: "";
     --headerBlurMask: linear-gradient(180deg, #fff 50%, 85%, transparent);
     --headerColor: rgba(30, 40, 54, 0.8);
-    --headerColorGradient: linear-gradient(180deg, rgb(146, 141, 171) 30%, 55%, transparent 90%);
+    --headerColorGradient: linear-gradient(180deg, rgb(64, 72, 110) 30%, 55%, transparent 90%);
     --headerColorGradientAlt: linear-gradient(180deg, #262238, 70%, transparent);
     --highlightOutlineColor: #2563eb;
     --hoverGradientH: linear-gradient(
@@ -70,7 +70,7 @@
     --largerRadius: 1.25em;
     --libraryLabelVisibility: none;
     --lighterBorderColor: hsla(0, 0%, 100%, 0.2);
-    --lighterGradientPoint: #928DAB; /*1d2635*/
+    --lighterGradientPoint: #444e77 /*1d2635*/
     --lighterGradientPointAlpha: rgba(29, 38, 53, 0.85);
     --loginPageBgUrl: url();
     --loginPageText: "Sign in to continue";
