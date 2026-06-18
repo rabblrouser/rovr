@@ -1186,7 +1186,7 @@ html {
 }
 .backdropImage:after,
 .backdropImage:before {
-    background: inherit;
+    /* background: inherit; */
     bottom: 0;
     content: "";
     left: 0;
