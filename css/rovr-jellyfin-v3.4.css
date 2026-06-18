@@ -1195,7 +1195,7 @@ html {
     top: 0;
 }
 .backdropImage:after {
-    height: 80vh;
+    /* height: 80vh; */
     -webkit-mask: linear-gradient(180deg, #000 75%, transparent);
     mask: linear-gradient(180deg, #000 75%, transparent);
     z-index: 0;
